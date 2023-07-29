@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="POS-SYSTEM-BACKEND_API:war">
+    <output-path>$PROJECT_DIR$/WEB-POS-SYSTEM-BACKEND-API-master/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>POS-SYSTEM-BACKEND_API</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="POS-SYSTEM-BACKEND(API).war">
+      <element id="artifact" artifact-name="POS-SYSTEM-BACKEND_API:war exploded" />
+    </root>
+  </artifact>
+</component>
